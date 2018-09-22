@@ -7,12 +7,12 @@ Created by Jimmy Cushnie
 
 ---
 
-PENIS is a data serialization language designed for configuration files in video games. It is similar to YAML, but a little more specialized:
+PENIS is a data serialization language designed for configuration files in video games. It is similar to YAML, but a little more specialized.
 
-* PENIS is practical. Its rules make it inherently fast and simple to use in a project.
-* PENIS is easy. Easy to write, easy to read, and easy to build a parser for.
-* PENIS is nested. Through the magic of indents, almost any kind of data can be serialized.
-* PENIS is isolated. A value pair does not have an inherent type of data assosiated with it; `123` could be an integer, a float, an a byte, or a signed byte, depending on how the parser is instructed to interpret it.
+PENIS is practical. Its rules make it inherently fast and simple to use in a project.  
+PENIS is easy. Easy to write, easy to read, and easy to build a parser for.  
+PENIS is nested. Through the magic of indents, almost any kind of data can be serialized.  
+PENIS is isolated. A value pair does not have an inherent type of data assosiated with it; `123` could be an integer, a float, an a byte, or a signed byte, depending on how the parser is instructed to interpret it.
 
 Example
 ---
@@ -108,7 +108,7 @@ key      :       value
      key : value      
 </pre>
 
-A key may contain any unicode character except for newline characters, `:` and `#`. A key's first character may not be `-`. A key may not start or end with a space.
+A key may contain any unicode character except for newline characters, `:` and `#`. A key's first character may not be `-`. A key may not start or end with a space. A key must contain at least one character.
 
 ### List lines
 
