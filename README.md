@@ -17,7 +17,7 @@ PENIS is isolated. A value pair does not have an inherent type of data assosiate
 Example
 ---
 
-```PENIS
+```yaml
 # This is a PENIS file that could store the settings for a game.
 
 ############
@@ -217,7 +217,7 @@ A data line may only have one type of child: key, line, or multi-line string. Th
 ```PENIS
 Boi:
     key: 69
-    - 69
+    - 69 #BAD
 ```
 
 Structure
