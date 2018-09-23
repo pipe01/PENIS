@@ -101,12 +101,10 @@ Key lines represent unordered data indexed by name. A key line contains a key pa
 
 All spaces surrounding the `:` character are ignored. All spaces at the beginning and end of the line are ignored. The following examples all result in a key of `key` and a value of `value`:
 
-<pre>
-key:value
-key: value
-key      :       value
-     key : value      
-</pre>
+* `key:value`
+* `key: value`
+* `key : value`
+* <pre>key      :       value           </pre>
 
 A key may contain any unicode character except for newline characters, `:` and `#`. A key's first character may not be `-`. A key may not start or end with a space. A key must contain at least one character.
 
@@ -114,12 +112,9 @@ A key may contain any unicode character except for newline characters, `:` and `
 
 List lines represent ordered data. A list line's first non-space character is `-`. Excluding any spaces between `-` and the next non-space character and any trailing spaces, the rest of the line is the value. Each of the following examples is a list node with a value of `heck`:
 
-<pre>
-- heck
--heck
--    heck    
-      - heck`
-</pre>
+* `- heck`
+* `-heck`
+* <pre>-    heck        </pre>
 
 ### Multi-line strings
 
