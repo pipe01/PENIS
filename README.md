@@ -14,8 +14,6 @@ PENIS is easy. Easy to write, easy to read, and easy to build a parser for.
 PENIS is nested. Through the magic of indents, almost any kind of data can be serialized.  
 PENIS is isolated. A value pair does not have an inherent type of data assosiated with it; `123` could be an integer, a float, a byte, or a signed byte, depending on how the parser is instructed to interpret it.
 
----
-
 Table Of Contents
 ---
 
