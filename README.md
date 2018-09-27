@@ -158,7 +158,7 @@ The lines between the two `"""`s *do* contain data and should be interpreted by 
 
 ---
 
-If a data line contains the comment indicator `#`, that character and everything after it is ignored. For example, in the key line `opinion: I like #PENIS`, the value is `I like`, not `I like #PENIS`.
+If a data line contains the comment indicator `#` and it isn't preceded by a `\` character, that character and everything after it is ignored. For example, in the key line `opinion: I like #PENIS`, the value is `I like`, not `I like #PENIS`.
 
 A line which does not meet the criteria to be a non-data line or any type of data line is invalid PENIS, and the parser should throw an error.
 
